@@ -1,0 +1,89 @@
+/* general*/
+
+html {
+    font-family: 'Cabin', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+{
+    box-sizing: border-box;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*HEADER*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    height: 25vh;
+    width: 100%;
+    background-color: rgba(255, 180, 51, 0.75);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.header__logo {
+    height: 100%;
+    width: 20%;
+}
+
+.header_icono {
+    height: 100%;
+    width: 20%;
+    border: 0;
+    background-color: transparent;
+}
+
+.icono {
+    font-size: 3rem;
+}
+
+.header__navigation {
+    width: 100;
+    height: 22vh;
+    background-color: rgb(212, 184, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.header__navigation ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.header__navigation li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+}
+
+.navigation__link {
+    color: seagreen;
+    text-decoration: none;
+    font-size: 3.5rem;
+}
+
+.carousel-item {
+    height: 80pc;
+    object-fit: cover;
+}
